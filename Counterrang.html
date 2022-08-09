@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>task on counter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Counterrang.css">
+ 
+</head>
+<body>
+    <div class="button">
+        <h2>Counter</h2>
+         <!-- <span id="time">0</span><br> -->
+
+          <div class="move">
+            <h3 id="counting"></h3>
+            <button id="add" onclick="addone()" type="button">Add Count</button>
+            <button id="lower" onclick="reduceone()" type="button">Lower Count</button>
+          </div>
+    
+    </div>
+    <script>
+
+        var data=0;
+        document.getElementById("counting").innerText = data;
+        function addone() {
+        if (data <=49) {
+          data = data + 1;
+          document.getElementById("counting").innerText = data;
+        } else {
+          alert("cannot exceed more 50");
+        }
+      }
+       
+        document.getElementById("counting").innerText = data;
+        function reduceone() {
+        if (data>=2){
+        data = data- 1;
+        document.getElementById("counting").innerText = data;
+        } else{
+            alert("this is the last number")
+        }
+    }
+    </script>
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/jquery.slim.min.js"></script>
+    
+</body>

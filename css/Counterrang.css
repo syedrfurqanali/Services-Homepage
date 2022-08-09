@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(16, 124, 101);
+}
+.button h2{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+span{
+    padding-inline: 664px;
+    font-size: 31px;
+}
+.move{
+    padding-top: 30px;
+    text-align: center;
+}
+.move button{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #7d978e;
+}
